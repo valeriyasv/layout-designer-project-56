@@ -1,0 +1,23 @@
+{
+  "name": "layout-designer-project-56",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/valeriyasv/layout-designer-project-56/workflows/hexlet-check/badge.svg)](https://github.com/valeriyasv/layout-designer-project-56/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeriyasv/layout-designer-project-56.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeriyasv/layout-designer-project-56/issues"
+  },
+  "homepage": "https://github.com/valeriyasv/layout-designer-project-56#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint-config-standard": "^28.0.0"
+  }
+}
