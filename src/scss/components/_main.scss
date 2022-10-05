@@ -1,0 +1,45 @@
+// @font-face {
+//     font-family: Roboto;
+//     src: url("../fonts/Roboto-Regular.ttf");
+//   }
+
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation{
+    color: #CACACA;
+    list-style-type: none;
+    display: flex;
+    font-size: 11px;
+}
+
+.white-color{
+    color: #FFFF;
+}
+
+.logo-text{
+    margin-right: 90px;
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.logo-img{
+    width: 24px;
+    height: 24px;
+}
+
+.logo{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+.main-section{
+    background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
+}

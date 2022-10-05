@@ -4,6 +4,7 @@
   "description": "[![Actions Status](https://github.com/valeriyasv/layout-designer-project-56/workflows/hexlet-check/badge.svg)](https://github.com/valeriyasv/layout-designer-project-56/actions)",
   "main": "index.js",
   "scripts": {
+    "style": "sass --watch src/scss/style.scss src/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "devDependencies": {
     "htmlhint": "^1.1.4",
     "stylelint-config-standard": "^28.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.55.0"
   }
 }
