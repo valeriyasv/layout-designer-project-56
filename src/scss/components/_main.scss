@@ -3,43 +3,30 @@
 //     src: url("../fonts/Roboto-Regular.ttf");
 //   }
 
-@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+@import url("https://fonts.googleapis.com/css2? family= Open+Sans & display=swap");
 
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
+
+  @media (max-width: 414px) {
+    margin: 0;
+  }
 }
 
-.navigation{
-    color: #CACACA;
-    list-style-type: none;
-    display: flex;
-    font-size: 11px;
+.white-color {
+  color: #ffff;
 }
 
-.white-color{
-    color: #FFFF;
-}
+.main-section {
+  background-image: url("../images/banner.png");
 
-.logo-text{
-    margin-right: 90px;
-    margin-left: 16px;
-    text-decoration: none;
-    font-size: 11px;
-}
-
-.logo-img{
-    width: 24px;
-    height: 24px;
-}
-
-.logo{
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-}
-
-.main-section{
-    background-image: url('../images/banner.png');
   background-position: center;
   background-size: cover;
+}
+
+.main {
+  @media (max-width: 414px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

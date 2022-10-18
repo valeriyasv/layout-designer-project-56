@@ -1,4 +1,8 @@
 .wrapper{
     max-width: $content-width;
     margin: 0 auto;
+
+    @media (max-width: 414px) {
+        max-width: 100%;
+    }
 }

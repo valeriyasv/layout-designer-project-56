@@ -1,9 +1,11 @@
 @import "abstract/constant";
+@import "base/mixins";
 @import "base/base";
+
 @import "components/main";
-@import "layout/wrapper";
+
 
 //Layout
 @import "layout/header";
-
+@import "layout/wrapper";
 

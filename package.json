@@ -22,6 +22,7 @@
     "stylelint-config-standard": "^28.0.0"
   },
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "sass": "^1.55.0"
   }
 }
