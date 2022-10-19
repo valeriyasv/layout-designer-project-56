@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "surge": "^0.23.1"
   }
 }
