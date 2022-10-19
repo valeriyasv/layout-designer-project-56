@@ -586,4 +586,74 @@ body {
   }
 }
 
+.page-app {
+  margin-bottom: 100px;
+}
+
+.footer {
+  display: grid;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.footer-title {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+  margin: 0;
+}
+
+.footer-flex {
+  display: flex;
+}
+
+.coloumn {
+  width: 270px;
+}
+
+.coloumn2 {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footer-img {
+  display: flex;
+}
+
+.twitter {
+  margin: 0 24px 0 24px;
+}
+
+.coloumn3 {
+  margin-left: 40px;
+}
+
+.main-f {
+  margin-top: 62px;
+}
+
+.footer-contacts {
+  margin-bottom: 72px;
+}
+
+.border {
+  width: 100vw;
+  height: 1px;
+  background-color: #CACACA;
+  margin-top: 72px;
+}
+
+.footer-and {
+  margin-top: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
