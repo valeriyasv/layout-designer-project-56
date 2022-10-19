@@ -1,6 +1,9 @@
 .pricing-item {
     width: 368px;
     height: 615px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
 }
 
 .bg-free1{
@@ -10,7 +13,7 @@
 }
 
 .count{
-    @include font(64px, 64px, 400, uppercase);
+    @include font(64px, 1em, 400, uppercase);
     margin: 0;
     margin-right: 16px;
 }
@@ -42,7 +45,7 @@ a{
     background: none;
     margin: 0 auto;
     display: block;
-    margin-bottom: 64px
+    margin-bottom: 64px;
     }
 }
 
@@ -71,7 +74,7 @@ a{
 
 .cards{
     display: flex;
-    margin-top: 48px;
+    margin-top: 50px;
 
     @media (max-width: 414px) {
         flex-direction: column;
@@ -85,4 +88,14 @@ a{
     margin-top: 40px;
 }
 
+.price{
+    @include font(24px, 36px, 400, uppercase);
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 0;
+
+    @media (max-width: 414px) {
+        @include font(18px, 27px, 700, uppercase);
+    }
+}
 

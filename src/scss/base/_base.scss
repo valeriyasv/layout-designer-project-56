@@ -26,13 +26,16 @@ body {
 
 h3{
     @include font(24px, 36px, 400, uppercase);
+}
+
+.title2{
+    @include font(38px, 57px, bold, uppercase);
+    margin: 0;
     text-align: center;
-    padding-top: 24px;
-    margin-bottom: 0;
 
     @media (max-width: 414px) {
-        @include font(18px, 27px, 700, uppercase);
-    }
+    @include font(18px, 27px, 700, uppercase);
+  }
 }
 
 .input-header {
