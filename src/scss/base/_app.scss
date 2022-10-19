@@ -1,0 +1,57 @@
+.app-description{
+    width: 600px;
+    margin: 64px 0 16px 0;
+
+    @media (max-width: 414px) {
+        margin: 16px 0 0 0;
+    }
+}
+
+
+.app-btn{
+    width: 131px;
+    height: 53px;
+    color: $color-text;
+    text-decoration: none;
+    border-radius: 32px;
+    background-color: #95390C;
+    border: none;
+    @include font(12.8px, 19.2px, 400, none);
+}
+
+.description{
+    column-count: 2;
+    margin-top: 48px;
+
+    @media (max-width: 414px) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.img-app{
+    margin-left: 144px;
+
+    @media (max-width: 414px) {
+        margin: 0;
+    }
+}
+
+.text-button{
+    @media (max-width: 414px) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.text-app{
+    @media (max-width: 414px) {
+        width: 374px;
+    }
+}
+
+.txt-app{
+    @media (max-width: 414px) {
+        flex-direction: column-reverse;
+    }
+}
