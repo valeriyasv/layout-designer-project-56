@@ -1,5 +1,5 @@
 .footer{
-    display: grid;
+    padding-top: 62px;
     background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
@@ -12,11 +12,19 @@
 
 .footer-text{
     @include font(16px, 24px, 400, none);
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: $color-text;
     margin: 0;
 }
 
 .footer-flex{
     display: flex;
+
+    @media (max-width: 414px) {
+        flex-direction: column;        
+    }
 }
 
 .coloumn{
@@ -26,11 +34,13 @@
 .coloumn2{
     margin-left: 40px;
     margin-right: 40px;
+    @media (max-width: 414px) {
+        margin: 30px 0;     
+    }
 }
 
 .footer-img{
     display: flex;
-   
 }
 
 .twitter{
@@ -39,10 +49,18 @@
 
 .coloumn3{
     margin-left: 40px;
+
+    @media (max-width: 414px) {
+        margin: 30px 0 0 0;     
+    }
 }
 
 .main-f{
-    margin-top: 62px;
+ 
+
+    @media (max-width: 414px) {
+        padding: 0 20px;      
+    }
 }
 
 .footer-contacts{
@@ -50,13 +68,32 @@
 }
 
 .border{
-    width: 100vw;
-    height: 1px;
+    width: 100%;
+    box-sizing: border-box;
     background-color: $color-gray;
     margin-top: 72px;
 }
 
 .footer-and{
-    
    margin-top: 40px;
+   display: flex;
+   padding-bottom: 49px;
+
+   @media (max-width: 414px) {
+    flex-direction: column;     
+}
+}
+
+.footer-text2{
+    margin-left: 16px;
+    margin-right: 16px;
+
+    @media (max-width: 414px) {
+        margin: 16px 0;
+    }
+}
+
+
+.footer-text{
+    @include font(16px, 24px, 400, none);
 }

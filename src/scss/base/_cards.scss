@@ -4,6 +4,12 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
+
+    @media (max-width: 414px) {
+        width: 374px;
+        height: 595px;
+        box-sizing: border-box;
+    }
 }
 
 .bg-free1{
@@ -98,4 +104,3 @@ a{
         @include font(18px, 27px, 700, uppercase);
     }
 }
-

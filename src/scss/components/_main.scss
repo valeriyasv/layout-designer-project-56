@@ -7,6 +7,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 
   @media (max-width: 414px) {
     margin: 0;
@@ -18,10 +19,11 @@ body {
 }
 
 .main-section {
-  background-image: url("../images/banner.png");
+  @include  main-background(url(../images/banner.png))
+}
 
-  background-position: center;
-  background-size: cover;
+.main-section-artist {
+  @include  main-background(url(../images/MortenHarket.png))
 }
 
 .promo {

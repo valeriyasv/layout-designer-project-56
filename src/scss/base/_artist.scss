@@ -1,0 +1,22 @@
+.btn-artist{
+   @include btn-artist($color-purpule);
+}
+
+.btn-artist-orange{
+    @include btn-artist($color-red);
+ }
+
+
+.btn-artist::before{
+    content: "";
+    background-image: url(/src/images/play-button.svg);
+}
+
+.m-24{
+    margin-left: 24px;
+}
+
+.buttons-artist{
+    margin-top: 48px;
+    padding-bottom: 200px;
+}

@@ -95,6 +95,21 @@ h3 {
   }
 }
 
+.promo__title__artist {
+  text-align: left;
+  margin: 0;
+  margin-top: 150px;
+}
+@media (max-width: 414px) {
+  .promo__title__artist {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-top: 78px;
+  }
+}
+
 .promo__title2 {
   font-size: 38px;
   font-weight: 700;
@@ -119,6 +134,14 @@ h3 {
   line-height: 24px;
   text-transform: none;
   text-align: center;
+}
+
+.promo__text__artist {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+  text-align: left;
 }
 
 .form_name {
@@ -194,12 +217,35 @@ h3 {
   }
 }
 
+@media (max-width: 414px) {
+  .middle-img {
+    vertical-align: middle;
+  }
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+}
+
 .pricing-item {
   width: 368px;
   height: 615px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 1rem;
+}
+@media (max-width: 414px) {
+  .pricing-item {
+    width: 374px;
+    height: 595px;
+    box-sizing: border-box;
+  }
 }
 
 .bg-free1 {
@@ -320,6 +366,7 @@ a .btn {
 
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 @media (max-width: 414px) {
   body {
@@ -332,7 +379,13 @@ body {
 }
 
 .main-section {
-  background-image: url("../images/banner.png");
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-section-artist {
+  background-image: url(../images/MortenHarket.png);
   background-position: center;
   background-size: cover;
 }
@@ -346,6 +399,7 @@ body {
 
 .header {
   padding: 0;
+  padding-top: 25px;
 }
 @media (max-width: 414px) {
   .header {
@@ -367,7 +421,7 @@ body {
 }
 
 .navigation {
-  color: #CACACA;
+  list-style: none;
   list-style-type: none;
   display: flex;
   font-size: 11px;
@@ -379,7 +433,7 @@ body {
   }
 }
 .navigation .navigation_link {
-  list-style: none;
+  color: #CACACA;
   padding: 0 24px;
 }
 @media (max-width: 414px) {
@@ -446,6 +500,16 @@ body {
   margin: 30px 0 24px 0;
 }
 
+.news-description2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+  text-align: left;
+  color: #CACACA;
+  margin: 30px 0 16px 0;
+}
+
 .orange-color {
   font-size: 12px;
   font-weight: 400;
@@ -505,7 +569,7 @@ body {
 
 .news-item2 {
   flex-direction: row-reverse;
-  margin-top: 65px;
+  margin-top: 64px;
 }
 @media (max-width: 414px) {
   .news-item2 {
@@ -591,7 +655,7 @@ body {
 }
 
 .footer {
-  display: grid;
+  padding-top: 62px;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
@@ -609,11 +673,20 @@ body {
   font-weight: 400;
   line-height: 24px;
   text-transform: none;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
   margin: 0;
 }
 
 .footer-flex {
   display: flex;
+}
+@media (max-width: 414px) {
+  .footer-flex {
+    flex-direction: column;
+  }
 }
 
 .coloumn {
@@ -623,6 +696,11 @@ body {
 .coloumn2 {
   margin-left: 40px;
   margin-right: 40px;
+}
+@media (max-width: 414px) {
+  .coloumn2 {
+    margin: 30px 0;
+  }
 }
 
 .footer-img {
@@ -636,9 +714,16 @@ body {
 .coloumn3 {
   margin-left: 40px;
 }
+@media (max-width: 414px) {
+  .coloumn3 {
+    margin: 30px 0 0 0;
+  }
+}
 
-.main-f {
-  margin-top: 62px;
+@media (max-width: 414px) {
+  .main-f {
+    padding: 0 20px;
+  }
 }
 
 .footer-contacts {
@@ -646,14 +731,70 @@ body {
 }
 
 .border {
-  width: 100vw;
-  height: 1px;
+  width: 100%;
+  box-sizing: border-box;
   background-color: #CACACA;
   margin-top: 72px;
 }
 
 .footer-and {
   margin-top: 40px;
+  display: flex;
+  padding-bottom: 49px;
+}
+@media (max-width: 414px) {
+  .footer-and {
+    flex-direction: column;
+  }
+}
+
+.footer-text2 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+@media (max-width: 414px) {
+  .footer-text2 {
+    margin: 16px 0;
+  }
+}
+
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+}
+
+.btn-artist {
+  width: 200px;
+  height: 62px;
+  color: white;
+  background: #5328A1;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-artist-orange {
+  width: 200px;
+  height: 62px;
+  color: white;
+  background: #95390C;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-artist::before {
+  content: "";
+  background-image: url(/src/images/play-button.svg);
+}
+
+.m-24 {
+  margin-left: 24px;
+}
+
+.buttons-artist {
+  margin-top: 48px;
+  padding-bottom: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
