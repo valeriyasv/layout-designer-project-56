@@ -4,6 +4,11 @@
 
 .btn-artist-orange{
     @include btn-artist($color-red);
+     margin-left: 24px;
+
+     @media (max-width: 414px) {
+        margin: 24px 0 0 0;
+    }
  }
 
 
@@ -12,11 +17,140 @@
     background-image: url(/src/images/play-button.svg);
 }
 
-.m-24{
-    margin-left: 24px;
-}
-
 .buttons-artist{
     margin-top: 48px;
     padding-bottom: 200px;
 }
+
+.main-section-artist {
+    @include  main-background(url(../images/MortenHarket.png));
+    @media (max-width: 414px) {
+        padding: 0 20px;
+    }
+  }
+
+  .popular-artist{
+    padding-top: 100px;
+    @media (max-width: 414px) {
+        padding: 0 20px;
+        margin-top: 100px;
+    }
+
+  }
+
+  .popular-track{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 551px;
+
+    @media (max-width: 414px) {
+        width: 374px;
+      }
+  }
+
+  .track-info{
+    margin-left: 15px;
+  }
+
+  .m-0{
+    margin: 0;
+  }
+
+  .track{
+    @include font(12.8px,  19.2px, bold, uppercase);
+  }
+
+  .artist{
+    @include font(12.8px,  19.2px, 400, none);
+  }
+
+  .time{
+    @include font(12.8px,  19.2px, 400, none);
+    
+  }
+
+  .img-info{
+    display: flex;
+    align-items: center;
+  }
+
+  .m-48{
+    margin-top: 48px;
+  }
+
+  .flex-tracks{
+    display: flex;
+
+    @media (max-width: 414px) {
+      flex-direction: column;
+    }
+  }
+
+  .second-tracks{
+    margin-left: 50px;
+
+    @media (max-width: 414px) {
+        margin-left: 0;
+        margin-top: 25px;
+      }
+  }
+
+  .m-25{
+    margin: 25px 0;
+  }
+
+  .title2-artist{
+    @include font(38px, 57px, 700, uppercase);
+    text-align: left;
+
+    @media (max-width: 414px) {
+        @include font(18px, 27px, 700, uppercase);
+      }
+  }
+
+  .title3-artist{
+    @include font(18px, 27px, 700, none);
+    margin: 0;
+
+    @media (max-width: 414px) {
+        width: 137px;
+   
+      } 
+  }
+
+  .discography-info{
+    margin-top: 18px;
+  }
+
+  .disckografiya{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 48px;
+  }
+
+  .m-50{
+    margin-left: 50px;
+  }
+
+  .w-137{
+    @media (max-width: 414px) {
+        width: 137px;
+        height: 137px;
+      } 
+  }
+
+  .m-mob{
+    @media (max-width: 414px) {
+        margin-left: 0;
+        margin-top: 25px;
+      } 
+  }
+
+  .discography-item4{
+    @media (max-width: 414px) {
+        margin-top: 25px;
+      }
+  }
+
+

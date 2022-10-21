@@ -22,10 +22,6 @@ body {
   @include  main-background(url(../images/banner.png))
 }
 
-.main-section-artist {
-  @include  main-background(url(../images/MortenHarket.png))
-}
-
 .promo {
   @media (max-width: 414px) {
     padding-left: 20px;

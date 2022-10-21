@@ -384,12 +384,6 @@ body {
   background-size: cover;
 }
 
-.main-section-artist {
-  background-image: url(../images/MortenHarket.png);
-  background-position: center;
-  background-size: cover;
-}
-
 @media (max-width: 414px) {
   .promo {
     padding-left: 20px;
@@ -781,6 +775,12 @@ body {
   background: #95390C;
   border: none;
   border-radius: 5px;
+  margin-left: 24px;
+}
+@media (max-width: 414px) {
+  .btn-artist-orange {
+    margin: 24px 0 0 0;
+  }
 }
 
 .btn-artist::before {
@@ -788,13 +788,166 @@ body {
   background-image: url(/src/images/play-button.svg);
 }
 
-.m-24 {
-  margin-left: 24px;
-}
-
 .buttons-artist {
   margin-top: 48px;
   padding-bottom: 200px;
+}
+
+.main-section-artist {
+  background-image: url(../images/MortenHarket.png);
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 414px) {
+  .main-section-artist {
+    padding: 0 20px;
+  }
+}
+
+.popular-artist {
+  padding-top: 100px;
+}
+@media (max-width: 414px) {
+  .popular-artist {
+    padding: 0 20px;
+    margin-top: 100px;
+  }
+}
+
+.popular-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 551px;
+}
+@media (max-width: 414px) {
+  .popular-track {
+    width: 374px;
+  }
+}
+
+.track-info {
+  margin-left: 15px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.track {
+  font-size: 12.8px;
+  font-weight: bold;
+  line-height: 19.2px;
+  text-transform: uppercase;
+}
+
+.artist {
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-transform: none;
+}
+
+.time {
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-transform: none;
+}
+
+.img-info {
+  display: flex;
+  align-items: center;
+}
+
+.m-48 {
+  margin-top: 48px;
+}
+
+.flex-tracks {
+  display: flex;
+}
+@media (max-width: 414px) {
+  .flex-tracks {
+    flex-direction: column;
+  }
+}
+
+.second-tracks {
+  margin-left: 50px;
+}
+@media (max-width: 414px) {
+  .second-tracks {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+}
+
+.m-25 {
+  margin: 25px 0;
+}
+
+.title2-artist {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 57px;
+  text-transform: uppercase;
+  text-align: left;
+}
+@media (max-width: 414px) {
+  .title2-artist {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+}
+
+.title3-artist {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: none;
+  margin: 0;
+}
+@media (max-width: 414px) {
+  .title3-artist {
+    width: 137px;
+  }
+}
+
+.discography-info {
+  margin-top: 18px;
+}
+
+.disckografiya {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.m-50 {
+  margin-left: 50px;
+}
+
+@media (max-width: 414px) {
+  .w-137 {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+@media (max-width: 414px) {
+  .m-mob {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 414px) {
+  .discography-item4 {
+    margin-top: 25px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
