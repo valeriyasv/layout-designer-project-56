@@ -136,14 +136,6 @@ h3 {
   text-align: center;
 }
 
-.promo__text__artist {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-transform: none;
-  text-align: left;
-}
-
 .form_name {
   width: 273px;
   height: 50px;
@@ -720,21 +712,19 @@ body {
   }
 }
 
-.footer-contacts {
-  margin-bottom: 72px;
-}
-
 .border {
-  width: 100%;
   box-sizing: border-box;
+  width: 100%;
   background-color: #CACACA;
   margin-top: 72px;
+  margin-bottom: 0;
 }
 
 .footer-and {
   margin-top: 40px;
   display: flex;
   padding-bottom: 49px;
+  margin-bottom: 0;
 }
 @media (max-width: 414px) {
   .footer-and {
@@ -766,9 +756,21 @@ body {
   background: #5328A1;
   border: none;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0;
 }
 
-.btn-artist-orange {
+.d-block {
+  margin: 0;
+}
+
+.buttons-artist {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-orange {
   width: 200px;
   height: 62px;
   color: white;
@@ -776,16 +778,14 @@ body {
   border: none;
   border-radius: 5px;
   margin-left: 24px;
+  display: flex;
+  align-items: center;
+  padding: 0;
 }
 @media (max-width: 414px) {
-  .btn-artist-orange {
+  .btn-orange {
     margin: 24px 0 0 0;
   }
-}
-
-.btn-artist::before {
-  content: "";
-  background-image: url(/src/images/play-button.svg);
 }
 
 .buttons-artist {
@@ -948,6 +948,46 @@ body {
   .discography-item4 {
     margin-top: 25px;
   }
+}
+
+.similar-item {
+  width: 250px;
+}
+@media (max-width: 414px) {
+  .similar-item {
+    width: 137px;
+  }
+}
+
+.promo__text__artist {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: none;
+  text-align: left;
+}
+
+.txt_alg {
+  text-align: center;
+}
+
+.similar-info {
+  margin-top: 17px;
+}
+
+@media (max-width: 414px) {
+  .m-25-mob {
+    margin-top: 25px;
+  }
+}
+
+.p-100 {
+  padding-bottom: 100px;
+}
+
+.mix {
+  filter: invert(1);
+  margin: 21px 16px 21px 31px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,10 +1,26 @@
 .btn-artist{
-   @include btn-artist($color-purpule);
+  @include btn-artist($color-purpule);
+  display: flex;
+  align-items: center;
+  padding: 0;
 }
 
-.btn-artist-orange{
+.d-block{
+  margin: 0;
+}
+
+.buttons-artist{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.btn-orange{
     @include btn-artist($color-red);
      margin-left: 24px;
+     display: flex;
+  align-items: center;
+  padding: 0;
 
      @media (max-width: 414px) {
         margin: 24px 0 0 0;
@@ -12,15 +28,10 @@
  }
 
 
-.btn-artist::before{
-    content: "";
-    background-image: url(/src/images/play-button.svg);
-}
-
 .buttons-artist{
     margin-top: 48px;
     padding-bottom: 200px;
-}
+  }
 
 .main-section-artist {
     @include  main-background(url(../images/MortenHarket.png));
@@ -153,4 +164,42 @@
       }
   }
 
+ 
 
+  .similar-item{
+    width: 250px;
+
+    @media (max-width: 414px) {
+      width: 137px;
+ 
+    } 
+  }
+
+  .promo__text__artist {
+    @include font(16px, 24px, 400, none);
+    text-align: left;
+  }
+ .txt_alg{
+    text-align: center;
+  }
+
+  .similar-info{
+    margin-top: 17px;
+  }
+
+  .m-25-mob{
+    @media (max-width: 414px) {
+      margin-top: 25px;
+    } 
+  }
+
+  .p-100{
+    padding-bottom: 100px;
+  }
+
+  .mix{
+    filter: invert(1);
+    margin: 21px 16px 21px 31px ;
+  }
+
+  

@@ -95,12 +95,6 @@ h3{
   text-align: center;
 }
 
-.promo__text__artist {
-  @include font(16px, 24px, 400, none);
-  text-align: left;
- 
-}
-
 .form_name {
   &::placeholder {
     color: $color-text;
