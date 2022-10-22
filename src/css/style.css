@@ -80,13 +80,13 @@ h3 {
   margin: 5px 0 5px 10px;
 }
 
-.promo__title {
+.promo-title {
   text-align: center;
   margin: 0;
   margin-top: 150px;
 }
 @media (max-width: 414px) {
-  .promo__title {
+  .promo-title {
     font-size: 30px;
     font-weight: 700;
     line-height: 45px;
@@ -95,13 +95,13 @@ h3 {
   }
 }
 
-.promo__title__artist {
+.promo-title-artist {
   text-align: left;
   margin: 0;
   margin-top: 150px;
 }
 @media (max-width: 414px) {
-  .promo__title__artist {
+  .promo-title-artist {
     font-size: 30px;
     font-weight: 700;
     line-height: 45px;
@@ -110,7 +110,7 @@ h3 {
   }
 }
 
-.promo__title2 {
+.promo-title2 {
   font-size: 38px;
   font-weight: 700;
   line-height: 57px;
@@ -119,7 +119,7 @@ h3 {
   margin: 0 0 30px;
 }
 @media (max-width: 414px) {
-  .promo__title2 {
+  .promo-title2 {
     font-size: 18px;
     font-weight: 700;
     line-height: 27px;
@@ -128,7 +128,7 @@ h3 {
   }
 }
 
-.promo__text {
+.promo-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -136,7 +136,7 @@ h3 {
   text-align: center;
 }
 
-.form_name {
+.form-name {
   width: 273px;
   height: 50px;
   background: none;
@@ -148,7 +148,7 @@ h3 {
   margin-bottom: 1, 5rem;
   margin-left: 24px;
 }
-.form_name::placeholder {
+.form-name::placeholder {
   color: white;
   font-family: "Roboto";
   font-style: normal;
@@ -157,14 +157,14 @@ h3 {
   line-height: 16px;
 }
 @media (max-width: 414px) {
-  .form_name {
+  .form-name {
     width: 374px;
     margin: 0;
     margin-bottom: 16px;
   }
 }
 
-.promo_button {
+.promo-button {
   font-size: 13.3px;
   font-weight: 400;
   line-height: 15.29px;
@@ -177,7 +177,7 @@ h3 {
   border-radius: 5px;
 }
 @media (max-width: 414px) {
-  .promo_button {
+  .promo-button {
     width: 374px;
     margin-top: 8px;
   }
@@ -393,13 +393,13 @@ body {
   }
 }
 
-.header_wrapper {
+.header-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 @media (max-width: 414px) {
-  .header_wrapper {
+  .header-wrapper {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -418,12 +418,12 @@ body {
     padding: 0;
   }
 }
-.navigation .navigation_link {
+.navigation .navigation-link {
   color: #CACACA;
   padding: 0 24px;
 }
 @media (max-width: 414px) {
-  .navigation .navigation_link {
+  .navigation .navigation-link {
     font-weight: bold;
     padding: 0;
   }
@@ -959,7 +959,7 @@ body {
   }
 }
 
-.promo__text__artist {
+.promo-text-artist {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -967,7 +967,7 @@ body {
   text-align: left;
 }
 
-.txt_alg {
+.txt-alg {
   text-align: center;
 }
 
