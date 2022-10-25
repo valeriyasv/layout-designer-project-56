@@ -97,10 +97,10 @@ a{
 .price{
     @include font(24px, 36px, 400, uppercase);
     text-align: center;
-    padding-top: 24px;
     margin-bottom: 0;
 
     @media (max-width: 414px) {
-        @include font(18px, 27px, 700, uppercase);
+        @include font(16px, 24px, 700, uppercase);
+        padding-top: 0;
     }
 }
