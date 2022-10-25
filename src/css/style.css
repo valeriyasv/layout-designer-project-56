@@ -1,5 +1,4 @@
 body {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 1.5;
@@ -362,14 +361,14 @@ a .btn {
 
 @font-face {
   font-family: Roboto-Regular;
-  src: url("/src/fonts/Roboto-Regular.ttf");
+  src: url("/fonts/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: Roboto-Bold;
-  src: url("/src/fonts/Roboto-Bold.ttf");
+  src: url("/fonts/Roboto-Bold.ttf");
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   margin: 0;
 }
 @media (max-width: 414px) {
@@ -852,7 +851,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 48px;
-  padding-bottom: 200px;
+  padding-bottom: 223px;
 }
 @media (max-width: 414px) {
   .buttons-artist {
@@ -877,8 +876,8 @@ body {
 }
 @media (max-width: 414px) {
   .popular-artist {
-    padding: 0 20px;
-    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
