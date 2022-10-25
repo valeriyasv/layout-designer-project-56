@@ -21,7 +21,6 @@
 
 .description{
     column-count: 2;
-    margin-top: 48px;
 
     @media (max-width: 414px) {
         display: flex;
@@ -31,6 +30,7 @@
 
 .img-app{
     margin-left: 144px;
+    padding-top: 48px;
 
     @media (max-width: 414px) {
         margin: 0;
