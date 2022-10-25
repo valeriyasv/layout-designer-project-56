@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 body {
   font-style: normal;
   font-size: 18px;
@@ -359,16 +362,8 @@ a .btn {
   }
 }
 
-@font-face {
-  font-family: Roboto-Regular;
-  src: url("/fonts/Roboto-Regular.ttf");
-}
-@font-face {
-  font-family: Roboto-Bold;
-  src: url("/fonts/Roboto-Bold.ttf");
-}
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 @media (max-width: 414px) {
@@ -492,6 +487,7 @@ body {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 @media (max-width: 414px) {
   .wrapper {
@@ -1036,6 +1032,10 @@ body {
   line-height: 24px;
   text-transform: none;
   text-align: left;
+}
+
+.color {
+  color: #E0E0E0;
 }
 
 .txt-alg {
