@@ -15,20 +15,20 @@
     <section id="page-description" class="main-section-artist">
       <header class="header">
         <div class="wrapper header-wrapper">
-          <a href="#" class="logo header-logo">
-            <img src="../src/images/logo.svg" alt="logo" class="logo-img" />
+          <div class="logo-nav">
+            <a href="#" class="logo header-logo">
+            <img src="./images/logo.svg" alt="logo" class="logo-img" />
             <p class="logo-text white-color">MUSIC BOX</p>
           </a>
           <nav class="header-navigation">
-            <ul class="navigation">
-              <li class="navigation-link">
-                <a href="#" class="white-color">ГЛАВНАЯ</a>
-              </li>
-              <li><a href="#" class="navigation-link">КАТАЛОГ</a></li>
-              <li><a href="#" class="navigation-link">ИСПОЛНИТЕЛИ</a></li>
-              <li><a href="#" class="navigation-link">КОНТАКТЫ</a></li>
-            </ul>
+            <div class="navigation">
+               <a href="#" class="white-color m-24 navigation_link">ГЛАВНАЯ</a> 
+              <a href="#" class="navigation-link">КАТАЛОГ</a>
+             <a href="#" class="navigation-link">ИСПОЛНИТЕЛИ</a>
+              <a href="#" class="navigation-link">КОНТАКТЫ</a>
+            </div>
           </nav>
+        </div>
           <input placeholder="ПОИСК..." type="search" class="input-header" />
         </div>
       </header>
@@ -303,7 +303,7 @@
        <div class="footer-flex">  
       <div class="coloumn">
           <h2 class="footer-title">О нас</h2>
-          <ul>
+          <ul class="ul-footer">
           <li><a href="#" class="footer-text">История компании</a></li>
           <li><a href="#" class="footer-text">Карьера</a></li>
           <li><a href="#" class="footer-text">Особенности</a></li>
@@ -313,7 +313,7 @@
 
       <div class="coloumn coloumn2">
           <h2 class="footer-title">Поддержка</h2>
-          <ul>
+          <ul  class="ul-footer">
             <li><a href="#" class="footer-text">База знаний</a></li>
             <li><a href="#" class="footer-text">Тарифы</a></li>
             <li><a href="#" class="footer-text">Мобильное приложение</a></li>
@@ -323,9 +323,9 @@
 
       <div class="coloumn">
           <h2 class="footer-title">Контакты</h2>
-          <p class="footer-text">hello@music.box</p>
-          <p class="footer-text">Russia, Moscow. Music Box studio</p>
-          <p class="footer-text">+ 7 499 999 99 99</p>
+          <p class="footer-text-contacts">hello@music.box</p>
+          <p class="footer-text-contacts">Russia, Moscow. Music Box studio</p>
+          <p class="footer-text-contacts">+ 7 499 999 99 99</p>
       </div>
 
       <div class="coloumn coloumn3">
@@ -344,14 +344,15 @@
       
       <hr class="border">
 
-      <div class="wrapper">
-      <ul class="footer-and">
-        <li><a href="#" class="footer-text">Магазин</a></li>
-        <li><a href="#" class=" footer-text footer-text2">Обслуживание</a></li> 
-        <li><a href="#" class="footer-text">Блог</a></li> 
-        <li><a href="#" class="footer-text footer-text2">Поддержка</a></li> 
-        <li><a href="#" class="footer-text">Контакты</a></li> 
-      </ul>
+      <div class="wrapper main-f">
+
+      <div class="footer-and">
+        <a href="#" class="footer-text">Магазин</a>
+        <a href="#" class=" footer-text footer-text2">Обслуживание</a>
+        <a href="#" class="footer-text">Блог</a>
+        <a href="#" class="footer-text footer-text2">Поддержка</a>
+        <a href="#" class="footer-text m-0">Контакты</a>
+      </div>
       </div>
 
   </footer>

@@ -20,25 +20,42 @@
     }
 }
 
+.logo-nav{
+    display: flex;
+    align-items: center;
+    @media (max-width: 414px) {
+        flex-direction: column;
+    }
+}
+
 .navigation{
     list-style: none;
     list-style-type: none;
     display: flex;
     font-size: 11px;
 
+
     @media (max-width: 414px){
        
         flex-direction: column;
         padding: 0;
+        margin-top: 17px;
+    }
+
+    .m-24{
+        padding-right: 24px;
     }
 
     .navigation-link{
         color: #CACACA;
-        padding: 0 24px;
+        padding-right: 24px;
     
         @media (max-width: 414px){
             font-weight: bold;
             padding: 0;
+            height: auto;
+            width: auto;
+            display: block;
         }
     }
 }
@@ -52,16 +69,27 @@
         height: 24px;
     }
 
+
     .logo-text{
         margin-right: 90px;
         margin-left: 16px;
         text-decoration: none;
         font-size: 11px;
+   
+        @media (max-width: 414px) {
+        margin-right: 0;
+       }
     }
-    
+
     .logo-img{
         width: 24px;
         height: 24px;
     }
     
+}
+
+.input-header{
+    @media (max-width: 414px) {
+        margin-top: 18px;
+       }
 }
