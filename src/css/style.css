@@ -85,7 +85,7 @@ h3 {
 .promo-title {
   text-align: center;
   margin: 0;
-  margin-top: 200px;
+  margin-top: 150px;
   font-size: 60px;
   font-weight: bold;
   line-height: 90px;
@@ -151,7 +151,7 @@ h3 {
   box-sizing: border-box;
   padding: 0;
   padding-left: 20px;
-  margin-bottom: 1, 5rem;
+  margin-bottom: 1.5rem;
   margin-left: 24px;
 }
 .form-name::placeholder {
@@ -166,7 +166,7 @@ h3 {
   .form-name {
     width: 374px;
     margin: 0;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
 }
 
@@ -181,11 +181,11 @@ h3 {
   color: white;
   border: none;
   border-radius: 5px;
+  margin: 0;
 }
 @media (max-width: 414px) {
   .promo-button {
     width: 374px;
-    margin-top: 8px;
   }
 }
 
@@ -349,7 +349,7 @@ a .btn {
 @media (max-width: 414px) {
   .price {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
     padding-top: 0;
@@ -376,13 +376,6 @@ body {
   background-size: cover;
 }
 
-@media (max-width: 414px) {
-  .promo {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
 .header {
   padding: 0;
   padding-top: 25px;
@@ -400,7 +393,6 @@ body {
 }
 @media (max-width: 414px) {
   .header-wrapper {
-    display: flex;
     align-items: flex-start;
     flex-direction: column;
   }
@@ -413,6 +405,8 @@ body {
 @media (max-width: 414px) {
   .logo-nav {
     flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
   }
 }
 
@@ -421,9 +415,11 @@ body {
   list-style-type: none;
   display: flex;
   font-size: 11px;
+  height: 13px;
 }
 @media (max-width: 414px) {
   .navigation {
+    height: auto;
     flex-direction: column;
     padding: 0;
     margin-top: 17px;
@@ -435,6 +431,7 @@ body {
 .navigation .navigation-link {
   color: #CACACA;
   padding-right: 24px;
+  height: 13px;
 }
 @media (max-width: 414px) {
   .navigation .navigation-link {
@@ -448,6 +445,7 @@ body {
   display: flex;
   text-decoration: none;
   align-items: center;
+  justify-content: center;
 }
 @media (max-width: 414px) {
   .logo {
@@ -459,10 +457,14 @@ body {
   margin-left: 16px;
   text-decoration: none;
   font-size: 11px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 13px;
 }
 @media (max-width: 414px) {
   .logo .logo-text {
     margin-right: 0;
+    height: 26px;
   }
 }
 .logo .logo-img {
@@ -783,7 +785,7 @@ body {
 .footer-and {
   margin-top: 40px;
   display: flex;
-  padding-bottom: 49px;
+  padding-bottom: 47px;
   margin-bottom: 0;
 }
 @media (max-width: 414px) {
@@ -978,7 +980,7 @@ body {
 }
 
 .m-25 {
-  margin: 25px 0;
+  margin-top: 25px;
 }
 
 @media (max-width: 414px) {
@@ -1083,6 +1085,12 @@ body {
 
 .txt-alg {
   text-align: center;
+}
+
+@media (max-width: 414px) {
+  .mm-25 {
+    margin-top: 25px;
+  }
 }
 
 .similar-info {

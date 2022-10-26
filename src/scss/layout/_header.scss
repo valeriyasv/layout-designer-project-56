@@ -13,8 +13,6 @@
     justify-content: space-between;
 
     @media (max-width: 414px){
-
-        display: flex;
         align-items: flex-start;
         flex-direction: column;
     }
@@ -23,8 +21,11 @@
 .logo-nav{
     display: flex;
     align-items: center;
+   
     @media (max-width: 414px) {
         flex-direction: column;
+         justify-content: start;
+         align-items: flex-start;
     }
 }
 
@@ -33,10 +34,11 @@
     list-style-type: none;
     display: flex;
     font-size: 11px;
+    height: 13px;
 
 
     @media (max-width: 414px){
-       
+       height: auto;
         flex-direction: column;
         padding: 0;
         margin-top: 17px;
@@ -49,6 +51,7 @@
     .navigation-link{
         color: #CACACA;
         padding-right: 24px;
+        height: 13px;
     
         @media (max-width: 414px){
             font-weight: bold;
@@ -62,6 +65,7 @@
     display: flex;
     text-decoration: none;
     align-items: center;
+    justify-content: center;
 
     @media (max-width: 414px) {
         height: 24px;
@@ -73,9 +77,14 @@
         margin-left: 16px;
         text-decoration: none;
         font-size: 11px;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 13px;
+
    
         @media (max-width: 414px) {
         margin-right: 0;
+        height: 26px;
        }
     }
 

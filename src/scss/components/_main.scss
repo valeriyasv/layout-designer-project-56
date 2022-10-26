@@ -26,9 +26,4 @@ body {
   @include  main-background(url(../images/banner.png))
 }
 
-.promo {
-  @media (max-width: 414px) {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
+
