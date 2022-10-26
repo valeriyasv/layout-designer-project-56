@@ -206,7 +206,6 @@ h3 {
 
 .main {
   padding-top: 100px;
-  margin-bottom: 100px;
 }
 @media (max-width: 414px) {
   .main {
@@ -703,6 +702,7 @@ body {
   text-decoration: none;
   color: white;
   margin: 0;
+  color: #E0E0E0;
 }
 
 .footer-flex {
@@ -787,6 +787,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   text-transform: none;
+  color: #E0E0E0;
 }
 @media (max-width: 414px) {
   .footer-text {
@@ -799,6 +800,8 @@ body {
   font-weight: 400;
   line-height: 24px;
   text-transform: none;
+  color: #E0E0E0;
+  margin: 0;
 }
 @media (max-width: 414px) {
   .footer-text-contacts {
@@ -807,6 +810,9 @@ body {
   }
 }
 
+.ul-footer {
+  margin: 0;
+}
 @media (max-width: 414px) {
   .ul-footer {
     margin: 0;
@@ -954,6 +960,12 @@ body {
   margin: 25px 0;
 }
 
+@media (max-width: 414px) {
+  .mobile {
+    margin-top: 0;
+  }
+}
+
 .title2-artist {
   font-size: 38px;
   font-weight: 700;
@@ -1008,6 +1020,12 @@ body {
   .m-mob {
     margin-left: 0;
     margin-top: 25px;
+  }
+}
+
+@media (max-width: 414px) {
+  .mm {
+    margin-left: 0;
   }
 }
 

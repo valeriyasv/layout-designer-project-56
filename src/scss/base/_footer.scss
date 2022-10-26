@@ -17,6 +17,7 @@
     text-decoration: none;
     color: $color-text;
     margin: 0;
+    color: #E0E0E0;
 }
 
 .footer-flex{
@@ -95,6 +96,7 @@
 
 .footer-text{
     @include font(16px, 24px, 400, none);
+    color: #E0E0E0;
     @media (max-width: 414px) {
         margin-bottom: 16px;
     }
@@ -102,6 +104,8 @@
 
 .footer-text-contacts{
     @include font(16px, 24px, 400, none);
+    color: #E0E0E0;
+    margin: 0;
     @media (max-width: 414px) {
         margin-bottom: 0;
         margin-top: 0;
@@ -109,6 +113,7 @@
 }
 
 .ul-footer{
+    margin: 0;
     @media (max-width: 414px) {
         margin: 0;
     }
