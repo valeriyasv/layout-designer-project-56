@@ -12,6 +12,10 @@
     text-align: left;
     color: $color-gray;
     margin: 30px 0 24px 0;
+
+    @media (max-width: 414px) {
+        margin: 16px 0 24px 0;
+    }
 }
 
 .news-description2{
@@ -19,6 +23,10 @@
     text-align: left;
     color: $color-gray;
     margin: 30px 0 16px 0;
+
+    @media (max-width: 414px) {
+        margin: 16px 0 16px 0;
+    }
 }
 
 .orange-color {
@@ -47,11 +55,16 @@
     border: solid 1px $color-gray;
     border-radius: 5px;
     margin-top: 48px;
+    margin-bottom: 28px;
+
+    @media (max-width: 414px) {
+        margin-bottom: 0;
+     }
 }
 
 .news-item{
     display: flex;
-    margin-top: 50px;
+    margin-top: 48px;
 
     @media (max-width: 414px) {
        flex-direction: column;

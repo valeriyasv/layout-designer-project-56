@@ -1,9 +1,10 @@
 .pricing-item {
-    width: 368px;
+    width: 414px;
     height: 615px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
+    box-sizing: border-box;
 
     @media (max-width: 414px) {
         width: 374px;
