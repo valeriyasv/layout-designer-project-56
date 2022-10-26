@@ -991,7 +991,7 @@ body {
 }
 @media (max-width: 414px) {
   .title3-artist {
-    width: 137px;
+    width: 138px;
   }
 }
 
@@ -1009,6 +1009,9 @@ body {
   margin-left: 50px;
 }
 
+.w-137 {
+  margin: 0;
+}
 @media (max-width: 414px) {
   .w-137 {
     width: 137px;
