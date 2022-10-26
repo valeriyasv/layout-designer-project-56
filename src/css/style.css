@@ -284,7 +284,8 @@ a .btn {
   border: solid 1px white;
   border-radius: 5px;
   background: none;
-  margin: 0 auto;
+  margin-left: 0;
+  margin-right: 0;
   display: block;
   margin-bottom: 64px;
 }
@@ -366,8 +367,8 @@ body {
 
 .white-color {
   color: white;
+  height: 18px;
 }
-
 .main-section {
   background-image: url(../images/banner.png);
   background-position: center;
@@ -438,9 +439,7 @@ body {
   .navigation .navigation-link {
     font-weight: bold;
     padding: 0;
-    height: auto;
-    width: auto;
-    display: block;
+    height: 18px;
   }
 }
 
@@ -602,7 +601,11 @@ body {
 
 .middle-img {
   vertical-align: middle;
-  width: 374px;
+}
+@media (max-width: 414px) {
+  .middle-img {
+    width: 374px;
+  }
 }
 
 .app-description {
@@ -641,7 +644,7 @@ body {
 
 .img-app {
   margin-left: 144px;
-  margin-top: 48px;
+  padding-top: 48px;
 }
 @media (max-width: 414px) {
   .img-app {
@@ -993,7 +996,7 @@ body {
 }
 
 .discography-info {
-  margin-top: 18px;
+  margin-top: 14px;
 }
 
 .disckografiya {

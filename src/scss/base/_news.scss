@@ -86,6 +86,8 @@
 
 .middle-img{
     vertical-align: middle;
-    width: 374px;
+    @media (max-width: 414px) {
+        width: 374px;
+       }
 }
 

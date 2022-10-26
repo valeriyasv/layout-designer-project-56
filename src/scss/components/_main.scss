@@ -15,6 +15,11 @@ body {
 
 .white-color {
   color: #ffff;
+  height: 18px;
+
+  @media (max-width: 414px) {
+
+  }
 }
 
 .main-section {
