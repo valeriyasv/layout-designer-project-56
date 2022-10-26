@@ -30,10 +30,11 @@
 
 .img-app{
     margin-left: 144px;
-    padding-top: 48px;
+    margin-top: 48px;
 
     @media (max-width: 414px) {
         margin: 0;
+        margin-top: 48px;
     }
 }
 
@@ -47,6 +48,8 @@
 .text-app{
     @media (max-width: 414px) {
         width: 374px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
