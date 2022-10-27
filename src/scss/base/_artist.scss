@@ -133,7 +133,7 @@
   .title3-artist{
     @include font(18px, 27px, 700, none);
     margin: 0;
-    letter-spacing: -0.05em;
+
 
     @media (max-width: 414px) {
         width: 138px;
@@ -142,7 +142,7 @@
   }
 
   .discography-info{
-    margin-top: 14px;
+    margin-top: 7px;
   }
 
   .disckografiya{
