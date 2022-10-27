@@ -30,12 +30,11 @@
 
 .img-app{
     margin-left: 144px;
-    margin-top: -48px;
+    margin-top: 48px;
 
     @media (max-width: 414px) {
-        margin: 0;
-        margin-top: 48px;
-        padding-top: 0;
+        margin-left: 0;
+        vertical-align: middle;
     }
 }
 
@@ -48,10 +47,23 @@
 
 .text-app{
     margin-bottom: 15px;
+    margin-top: 64px;
     @media (max-width: 414px) {
         width: 374px;
         margin-left: 0;
         margin-right: 0;
+        margin-top: 16px;
+    }
+}
+
+
+.text-app2{
+    margin-bottom: 15px;
+    @media (max-width: 414px) {
+        width: 374px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 16px;
     }
 }
 

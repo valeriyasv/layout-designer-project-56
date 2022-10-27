@@ -106,6 +106,12 @@
     }
 }
 
+.footer-title-p{
+    text-align: left;
+    @include font(18px, 27px, 700, uppercase);
+    margin-bottom: 20px;
+}
+
 .footer-text-contacts{
     @include font(16px, 24px, 400, none);
     color: #E0E0E0;

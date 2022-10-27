@@ -43,6 +43,15 @@
 
 .news-author{
     display: flex;
+    margin-bottom: 48px;
+}
+
+.a-news{
+    width: 135px;
+    height: 53px;
+    text-decoration: none;
+    margin: 0;
+    display: block;
 }
 
 .news-btn{
@@ -50,12 +59,11 @@
     height: 53px;
     @include font(12px, 19.2px, 400, uppercase);
     color: $color-gray;
-    text-decoration: none;
+    margin: 0;
     background: none;
     border: solid 1px $color-gray;
     border-radius: 5px;
-    margin-top: 48px;
-    margin-bottom: 28px;
+    display: block;
 
     @media (max-width: 414px) {
         margin-bottom: 0;

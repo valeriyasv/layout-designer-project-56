@@ -181,12 +181,13 @@
 
   .similar-item{
     width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     @media (max-width: 414px) {
       width: 137px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+
     } 
   }
 
@@ -211,7 +212,7 @@
   }
 
   .similar-info{
-    margin-top: 17px;
+    margin-top: 12px;
   }
 
   .m-25-mob{

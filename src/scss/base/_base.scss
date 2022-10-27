@@ -75,6 +75,7 @@ h3{
   text-align: left;
   margin: 0;
   margin-top: 200px;
+  letter-spacing: -0.05em;
 
   @media (max-width: 414px) {
     @include font(30px, 45px, 700, uppercase);
