@@ -435,7 +435,7 @@ body {
     height: auto;
     flex-direction: column;
     padding: 0;
-    margin-top: 17px;
+    margin-top: 13px;
   }
 }
 .navigation .m-24 {
@@ -486,6 +486,7 @@ body {
 }
 
 .input-header {
+  height: 25px;
   padding: 5px 0 5px 10px;
 }
 @media (max-width: 414px) {
