@@ -47,9 +47,11 @@
     }
 
   }
+
   a{
     display: block;
   }
+
   .popular-track{
     display: flex;
     align-items: center;
@@ -131,6 +133,7 @@
   .title3-artist{
     @include font(18px, 27px, 700, none);
     margin: 0;
+    letter-spacing: -0.05em;
 
     @media (max-width: 414px) {
         width: 138px;
@@ -212,7 +215,7 @@
   }
 
   .similar-info{
-    margin-top: 12px;
+    margin-top: 18px;
   }
 
   .m-25-mob{

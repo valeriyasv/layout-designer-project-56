@@ -53,6 +53,7 @@ h3 {
   text-transform: uppercase;
   margin: 0;
   text-align: center;
+  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .title2 {
@@ -90,6 +91,7 @@ h3 {
   font-weight: bold;
   line-height: 90px;
   text-transform: uppercase;
+  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .promo-title {
@@ -124,6 +126,7 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   margin: 0 0 30px;
+  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .promo-title2 {
@@ -141,6 +144,7 @@ h3 {
   line-height: 24px;
   text-transform: none;
   text-align: center;
+  letter-spacing: -0.05em;
 }
 
 .form-name {
@@ -163,6 +167,7 @@ h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .form-name {
@@ -509,6 +514,7 @@ body {
   line-height: 45px;
   text-transform: capitalize;
   margin: 0;
+  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .new-title {
@@ -527,6 +533,7 @@ body {
   text-align: left;
   color: #CACACA;
   margin: 30px 0 24px 0;
+  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .news-description {
@@ -542,6 +549,7 @@ body {
   text-align: left;
   color: #CACACA;
   margin: 30px 0 16px 0;
+  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .news-description2 {
@@ -692,6 +700,7 @@ body {
     margin-left: 0;
     height: 278px;
     width: 333px;
+    margin-left: 20px;
   }
 }
 
@@ -705,6 +714,7 @@ body {
 .text-app {
   margin-bottom: 15px;
   margin-top: 64px;
+  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .text-app {
@@ -717,6 +727,7 @@ body {
 
 .text-app2 {
   margin-bottom: 15px;
+  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .text-app2 {
@@ -749,6 +760,7 @@ body {
   line-height: 27px;
   text-transform: uppercase;
   margin-bottom: 15px;
+  letter-spacing: -0.05em;
 }
 
 .footer-text {
@@ -853,6 +865,7 @@ body {
   line-height: 24px;
   text-transform: none;
   color: #E0E0E0;
+  letter-spacing: -0.05em;
 }
 .footer-title-p {
   text-align: left;
@@ -861,6 +874,7 @@ body {
   line-height: 27px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  letter-spacing: -0.05em;
 }
 
 .footer-text-contacts {
@@ -1055,6 +1069,7 @@ a {
   line-height: 27px;
   text-transform: none;
   margin: 0;
+  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .title3-artist {
@@ -1142,7 +1157,7 @@ a {
 }
 
 .similar-info {
-  margin-top: 12px;
+  margin-top: 18px;
 }
 
 @media (max-width: 414px) {
