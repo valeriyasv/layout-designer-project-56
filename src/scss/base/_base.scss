@@ -34,7 +34,7 @@ h3{
     @include font(38px, 57px, bold, uppercase);
     margin: 0;
     text-align: center;
-    letter-spacing: -0.05em;
+    
     @media (max-width: 414px) {
     @include font(18px, 27px, 700, uppercase);
   }
@@ -99,7 +99,7 @@ h3{
 .promo-text {
   @include font(16px, 24px, 400, none);
   text-align: center;
-  letter-spacing: -0.05em;
+
 }
 
 .form-name {

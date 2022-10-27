@@ -53,7 +53,6 @@ h3 {
   text-transform: uppercase;
   margin: 0;
   text-align: center;
-  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .title2 {
@@ -144,7 +143,6 @@ h3 {
   line-height: 24px;
   text-transform: none;
   text-align: center;
-  letter-spacing: -0.05em;
 }
 
 .form-name {
@@ -514,7 +512,6 @@ body {
   line-height: 45px;
   text-transform: capitalize;
   margin: 0;
-  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .new-title {
@@ -533,7 +530,6 @@ body {
   text-align: left;
   color: #CACACA;
   margin: 30px 0 24px 0;
-  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .news-description {
@@ -714,7 +710,6 @@ body {
 .text-app {
   margin-bottom: 15px;
   margin-top: 64px;
-  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .text-app {
@@ -727,7 +722,6 @@ body {
 
 .text-app2 {
   margin-bottom: 15px;
-  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .text-app2 {
@@ -760,7 +754,6 @@ body {
   line-height: 27px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  letter-spacing: -0.05em;
 }
 
 .footer-text {
@@ -865,7 +858,6 @@ body {
   line-height: 24px;
   text-transform: none;
   color: #E0E0E0;
-  letter-spacing: -0.05em;
 }
 .footer-title-p {
   text-align: left;
@@ -874,7 +866,6 @@ body {
   line-height: 27px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  letter-spacing: -0.05em;
 }
 
 .footer-text-contacts {
