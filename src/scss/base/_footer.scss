@@ -88,17 +88,21 @@
     margin-right: 16px;
 
     @media (max-width: 414px) {
-        margin-bottom: 16px;
+        margin-right: 0;
         margin-left: 0;
     }
 }
-
+.m-16{
+    @media (max-width: 414px) {
+        margin-bottom: 16px;
+    }
+}
 
 .footer-text{
     @include font(16px, 24px, 400, none);
     color: #E0E0E0;
     @media (max-width: 414px) {
-        margin-bottom: 16px;
+        
     }
 }
 

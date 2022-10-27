@@ -151,6 +151,8 @@ h3 {
   box-sizing: border-box;
   padding: 0;
   padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   margin-bottom: 1.5rem;
 }
 .form-name::placeholder {
@@ -802,8 +804,14 @@ body {
 }
 @media (max-width: 414px) {
   .footer-text2 {
-    margin-bottom: 16px;
+    margin-right: 0;
     margin-left: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .m-16 {
+    margin-bottom: 16px;
   }
 }
 
@@ -814,12 +822,6 @@ body {
   text-transform: none;
   color: #E0E0E0;
 }
-@media (max-width: 414px) {
-  .footer-text {
-    margin-bottom: 16px;
-  }
-}
-
 .footer-text-contacts {
   font-size: 16px;
   font-weight: 400;
@@ -905,6 +907,10 @@ body {
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+a {
+  display: block;
 }
 
 .popular-track {
