@@ -40,24 +40,6 @@ h3{
   }
 }
 
-.input-header {
-  background-color: #3c3b3d;
-  width: 248px;
-  height: 25px;
-  margin: 0;
-  padding-left: 10px;
-  border: none;
-  border-radius: 50px;
-
-  @media (max-width: 414px) {
-    width: 374px;
-  }
-
-  &::placeholder {
-    color: #757575;
-    margin: 5px 0 5px 10px;
-  }
-}
 
 .promo-title {
   text-align: center;

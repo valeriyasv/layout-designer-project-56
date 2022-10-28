@@ -29,16 +29,12 @@
     }
 }
 
-.navigation{
-    list-style: none;
-    list-style-type: none;
+.navigation{ 
     display: flex;
     font-size: 11px;
-    height: 13px;
-
 
     @media (max-width: 414px){
-       height: auto;
+
         flex-direction: column;
         padding: 0;
         margin-top: 10px;
@@ -95,10 +91,25 @@
     
 }
 
-.input-header{
-    padding: 5px 0 5px 10px;
+
+.input-header {
+    background-color: #3c3b3d;
+    width: 248px;
+    height: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 10px;
+    border: none;
+    border-radius: 50px;
+  
     @media (max-width: 414px) {
         margin-top: 18px;
+      width: 374px;
+    }
   
-       }
-}
+    &::placeholder {
+      color: #757575;
+      @include font(13.3px, 15.29px, 400, uppercase);
+    }
+  }
