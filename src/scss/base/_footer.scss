@@ -2,7 +2,13 @@
     padding-top: 62px;
     background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
     @media (max-width: 414px) {
-        padding-top: 55px;    
+        padding-top: 60px;    
+    }
+}
+
+.ffoter{
+    @media (max-width: 414px) {
+        margin-top: 3px;    
     }
 }
 
