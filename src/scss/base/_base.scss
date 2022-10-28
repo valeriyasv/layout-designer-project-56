@@ -144,10 +144,11 @@ letter-spacing: -0.05em;
   border-radius: 5px;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 
   @media (max-width: 414px) {
     width: 374px;
-
+    
   }
 }
 
