@@ -90,7 +90,6 @@ h3 {
   font-weight: bold;
   line-height: 90px;
   text-transform: uppercase;
-  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .promo-title {
@@ -125,7 +124,6 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   margin: 0 0 30px;
-  letter-spacing: -0.05em;
 }
 @media (max-width: 414px) {
   .promo-title2 {
@@ -181,7 +179,7 @@ h3 {
   line-height: 15.29px;
   text-transform: uppercase;
   width: 570px;
-  height: 57px;
+  height: 60px;
   background: #34C176;
   color: white;
   border: none;
@@ -438,7 +436,7 @@ body {
     height: auto;
     flex-direction: column;
     padding: 0;
-    margin-top: 5px;
+    margin-top: 10px;
   }
 }
 .navigation .m-24 {
@@ -655,6 +653,7 @@ body {
 @media (max-width: 414px) {
   .middle-img {
     width: 374px;
+    height: 186px;
   }
 }
 

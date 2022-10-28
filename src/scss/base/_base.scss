@@ -64,7 +64,6 @@ h3{
   margin: 0;
   margin-top: 150px;
   @include font(60px, 90px, bold, uppercase);
-  letter-spacing: -0.05em;
 
   @media (max-width: 414px) {
     @include font(30px, 45px, 700, uppercase);
@@ -88,7 +87,7 @@ h3{
   @include font(38px, 57px, 700, uppercase);
   text-align: center;
   margin: 0 0 30px;
-  letter-spacing: -0.05em;
+  
 
   @media (max-width: 414px) {
     @include font(18px, 27px, 700, uppercase);
@@ -137,7 +136,7 @@ letter-spacing: -0.05em;
 .promo-button {
   @include font(13.3px, 15.29px, 400, uppercase);
   width: 570px;
-  height: 57px;
+  height: 60px;
   background: $color-green;
   color: $color-text;
   border: none;
