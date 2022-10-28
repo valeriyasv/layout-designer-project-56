@@ -71,6 +71,9 @@
     background-color: $color-gray;
     margin-top: 75px;
     margin-bottom: 0;
+    @media (max-width: 414px) {
+        margin-top: 70px;    
+    }
 }
 
 .footer-and{

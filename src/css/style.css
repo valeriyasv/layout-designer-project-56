@@ -284,6 +284,8 @@ a {
 }
 a .btn {
   text-decoration: none;
+  padding-top: 21px;
+  padding-bottom: 21px;
   width: 318px;
   height: 66px;
   font-size: 16px;
@@ -486,7 +488,6 @@ body {
 }
 
 .input-header {
-  height: 25px;
   padding: 5px 0 5px 10px;
 }
 @media (max-width: 414px) {
@@ -688,12 +689,11 @@ body {
 }
 
 .img-app {
-  margin-left: 144px;
+  margin-left: 135px;
   margin-top: 48px;
 }
 @media (max-width: 414px) {
   .img-app {
-    margin-left: 0;
     height: 278px;
     width: 333px;
     margin-left: 20px;
@@ -728,7 +728,7 @@ body {
     width: 374px;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 20px;
+    margin-top: 16px;
   }
 }
 
@@ -821,6 +821,11 @@ body {
   background-color: #CACACA;
   margin-top: 75px;
   margin-bottom: 0;
+}
+@media (max-width: 414px) {
+  .border {
+    margin-top: 70px;
+  }
 }
 
 .footer-and {
@@ -1068,7 +1073,7 @@ a {
 }
 
 .discography-info {
-  margin-top: 7px;
+  margin-top: 10px;
 }
 
 .disckografiya {

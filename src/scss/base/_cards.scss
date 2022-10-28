@@ -43,6 +43,8 @@ a{
 
 .btn{
     text-decoration: none;
+    padding-top: 21px;
+    padding-bottom: 21px;
     width: 318px;
     height: 66px;
     @include font(16px, 24px, 400, uppercase);
