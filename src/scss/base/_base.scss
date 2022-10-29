@@ -1,5 +1,3 @@
-
-
 body {
   font-style: normal;
   font-size: 18px;
@@ -17,6 +15,7 @@ body {
 
   h2 {
     @include font(38px, 57px, bold, uppercase);
+
     margin: 0;
     text-align: center;
   }
@@ -26,20 +25,20 @@ body {
   }
 }
 
-h3{
-    @include font(24px, 36px, 400, uppercase);
+h3 {
+  @include font(24px, 36px, 400, uppercase);
 }
 
-.title2{
-    @include font(38px, 57px, bold, uppercase);
-    margin: 0;
-    text-align: center;
-    
-    @media (max-width: 414px) {
+.title2 {
+  @include font(38px, 57px, bold, uppercase);
+
+  margin: 0;
+  text-align: center;
+  
+  @media (max-width: 414px) {
     @include font(18px, 27px, 700, uppercase);
   }
 }
-
 
 .promo-title {
   text-align: center;
@@ -53,12 +52,10 @@ h3{
   }
 }
 
-
 .promo-title2 {
   @include font(38px, 57px, 700, uppercase);
   text-align: center;
   margin: 0 0 30px;
-  
 
   @media (max-width: 414px) {
     @include font(18px, 27px, 700, uppercase);
@@ -74,14 +71,13 @@ h3{
 
 .form-name {
   &::placeholder {
-    color: $color-text;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: -0.05em;
-
+  color: $color-text;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.05em;
 }
 
   width: 273px;
@@ -95,7 +91,6 @@ letter-spacing: -0.05em;
   padding-top: 16px;
   padding-bottom: 16px;
   margin-bottom: 1.5rem;
-  
 
   @media (max-width: 414px) {
     width: 374px;
@@ -106,6 +101,7 @@ letter-spacing: -0.05em;
 
 .promo-button {
   @include font(13.3px, 15.29px, 400, uppercase);
+
   width: 570px;
   height: 60px;
   background: $color-green;
@@ -118,11 +114,10 @@ letter-spacing: -0.05em;
 
   @media (max-width: 414px) {
     width: 374px;
-    
   }
 }
 
-.mm-24{
+.mm-24 {
   margin-left: 20px;
   @media (max-width: 414px) {
     margin-left: 0;
@@ -140,28 +135,24 @@ letter-spacing: -0.05em;
   padding-bottom: 200px;
 }
 
-.main{
-    padding-top: 100px;
-
-    @media (max-width: 414px) {
-        
-      }
+.main {
+  padding-top: 100px;
 }
 
-.middle-img{
+.middle-img {
   @media (max-width: 414px) {
     vertical-align: middle;
   }
 }
 
-ul{
+ul {
   padding: 0;
 
-  li{
+  li {
     list-style: none;
   }
 
-  a{
+  a {
     text-decoration: none;
   }
 }
