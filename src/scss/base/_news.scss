@@ -20,7 +20,6 @@
 }
 
 .news-description2 {
-
   @include font(16px, 24px, 400, none);
   text-align: left;
   color: $color-gray;
@@ -39,7 +38,6 @@
 }
 
 .news-date {
-
   @include font(12px, 19.2px, 400, uppercase);
 
   color: $color-gray;
@@ -88,8 +86,9 @@
   }
 }
 
-.news{
+.news {
   margin-left: 50px;
+
   @media (max-width: 414px) {
     margin-left: 0;
     margin-top: 50px;
@@ -124,4 +123,3 @@
     height: 186px;
   }
 }
-

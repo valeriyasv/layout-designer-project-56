@@ -130,8 +130,8 @@ a {
 }
 
 .title3-artist {
-
   @include font(18px, 27px, 700, none);
+
   margin: 0;
 
   @media (max-width: 414px) {
@@ -193,8 +193,8 @@ a {
 }
 
 .promo-text-artist {
-
   @include font(16px, 24px, 400, none);
+
   text-align: left;
   color: $color-text;
 }
@@ -240,7 +240,6 @@ a {
   letter-spacing: -0.05em;
 
   @media (max-width: 414px) {
-
     @include font(30px, 45px, 700, uppercase);
 
     margin-top: 55px;

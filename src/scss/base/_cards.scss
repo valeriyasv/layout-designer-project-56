@@ -18,8 +18,8 @@
 }
 
 .count {
-
   @include font(64px, 1em, 400, uppercase);
+
   margin: 0;
   margin-right: 16px;
 }
@@ -58,11 +58,10 @@ a {
     margin-right: 0;
     display: block;
     margin-bottom: 64px;
-   }
+  }
 }
 
 .pricing-footer {
-
   @include font(12.8px, 19.2px, 400, none);
 
   text-align: center;

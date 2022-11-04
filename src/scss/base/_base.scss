@@ -34,7 +34,7 @@ h3 {
 
   margin: 0;
   text-align: center;
-  
+
   @media (max-width: 414px) {
     @include font(18px, 27px, 700, uppercase);
   }
@@ -44,6 +44,7 @@ h3 {
   text-align: center;
   margin: 0;
   margin-top: 150px;
+
   @include font(60px, 90px, bold, uppercase);
 
   @media (max-width: 414px) {
@@ -66,19 +67,18 @@ h3 {
 .promo-text {
   @include font(16px, 24px, 400, none);
   text-align: center;
-
 }
 
 .form-name {
   &::placeholder {
     color: $color-text;
-    font-family: 'Roboto';
+    font-family: "Roboto" sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: -0.05em;
-}
+  } 
 
   width: 273px;
   height: 50px;
@@ -119,6 +119,7 @@ h3 {
 
 .mm-24 {
   margin-left: 20px;
+
   @media (max-width: 414px) {
     margin-left: 0;
   }
