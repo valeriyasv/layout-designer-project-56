@@ -72,14 +72,13 @@ h3 {
 .form-name {
   &::placeholder {
     color: $color-text;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: -0.05em;
-  } 
-
+  }
   width: 273px;
   height: 50px;
   background: none;

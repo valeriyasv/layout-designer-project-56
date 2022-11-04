@@ -72,17 +72,17 @@
     text-decoration: none;
     font-size: 11px;
     height: 13px;
- 
+
     @media (max-width: 414px) {
       margin-right: 0;
       height: 26px;
     }
   }
 
-    .logo-img {
-      width: 24px;
-      height: 24px;
-    }
+  .logo-img {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .input-header {
